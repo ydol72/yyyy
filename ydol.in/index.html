@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ydol.in Navbar</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #faf4f4fa;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: rgba(112, 61, 231, 0.925);
+      padding: 40px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px rgba(91, 127, 204, 0.1);
+      height: 130px;
+    }
+
+    /* Left side: logo + text */
+    .logo-area {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .logo-area img {
+      width: 90px;
+      height: 90px;
+      color: #f4f4f4;
+    }
+
+    .logo-text {
+      font-size: 36px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    /* Right side: contact info */
+    .contact-section {
+      display: flex;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .contact-item {
+      text-align: center;
+      text-decoration: none;
+      color: #f3ebeb;
+      font-size: 18px;
+    }
+
+    .contact-item img {
+      width: 42px;
+      height: 42px;
+      display: block;
+      margin: 0 auto 5px;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .contact-item:hover img {
+      transform: scale(1.1);
+    }
+
+    /* Floating Buttons */
+    .floating-button {
+      position: fixed;
+      bottom: 22px;
+      right: 22px;
+      z-index: 999;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .floating-button a {
+      background-color: white;
+      border-radius: 50%;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      width: 55px;
+      height: 55px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+    }
+
+    .floating-button img {
+      width: 32px;
+      height: 32px;
+    }
+  .violet-panel {
+  background-color: #8a2be2;
+  color: white;
+  padding: 50px 20px;
+  margin: 0 auto;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 2300px;
+  box-shadow: 0 4px 10px rgba(248, 247, 246, 0.952);
+  margin-top: 10px;
+  gap: 20px;
+}
+
+.panel-heading {
+  font-size: 38px;
+  font-weight: bold;
+  color: #00ffff;
+  margin-bottom: 25px;
+}
+
+.panel-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.panel-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.panel-text ul {
+  list-style-type: disc;
+  padding-left: 60px;
+}
+
+.panel-text li {
+  margin-bottom: 20px;
+}
+
+.panel-text strong {
+  font-size: 30px;
+}
+
+.subtitle {
+  display: inline-block;
+  margin-top: 5px;
+  text-decoration: underline;
+  color: #f1f0f0fb;
+  font-size: 24px;
+}
+
+
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <!-- Left: home icon + text -->
+    <div class="logo-area">
+      <img src="ydol.in logo...png" alt="Home Icon" title="Home">
+      <div class="logo-text">Ydol.in</div>
+    </div>
+
+    <!-- Right: Contact icons -->
+    <div class="contact-section">
+      <!-- WhatsApp -->
+      <a href="https://wa.me/917210312545" target="_blank" class="contact-item">
+        <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp">
+        7210312545
+      </a>
+
+      <!-- Call -->
+      <a href="tel:+917210312545" class="contact-item">
+        <img src="https://img.icons8.com/ios-filled/50/000000/phone.png" alt="Call">
+        7210312545
+      </a>
+
+      <!-- Email -->
+      <a href="mailto:Ydol.in72@gmail.com" class="contact-item">
+        <img src="https://img.icons8.com/ios-filled/50/000000/email.png" alt="Email">
+        Ydol.in72@gmail.com
+      </a>
+    </div>
+  </div>
+  <!-- Page Content -->
+  <div style="padding: 22px;">
+   <center><u><h1>Welcome to Visit Ydol.in</h1></b></u></center>
+  </div>
+
+  <!-- Floating WhatsApp and Call Buttons -->
+  <div class="floating-button">
+    <!-- WhatsApp -->
+    <a href="https://wa.me/917210312545" target="_blank" title="Chat on WhatsApp">
+      <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp">
+    </a>
+
+    <!-- Call -->
+    <a href="tel:+917210312545" title="Call Now">
+      <img src="https://img.icons8.com/ios-filled/50/000000/phone.png" alt="Call">
+    </a>
+  </div>
+   <!-- panel -->
+    <!-- Violet Panel Section Below Navbar -->
+<div class="violet-panel">
+  <div class="panel-content">
+    <div class="panel-text">
+      <h1 class="panel-heading">Get a Live Decent Member with Services</h1>
+       <h1 class="panel-heading"> Our Services~Get a Live Member with service</h1>
+      <ul>
+        <li>
+          <strong>Residential Property</strong><br>
+          <span class="subtitle">Buy OR Rent Residential Property,Flat/Appartment,Hostel,PG,Co-living.</span>
+        </li>
+        <li>
+          <strong>Commercial Property</strong><br>
+          <span class="subtitle">Buy And Lease Commercial Property Office,Retail, Hospitality, Land.</span>
+  
+        <li>
+          <strong>Post Property via whatsapp</strong><br>
+          <span class="subtitle"> Post All Type Of Residential And Commertial Property.</span>
+        </li>
+        <li>
+          <strong>Arrangement</strong><br>
+          <span class="subtitle">Wedding, Aniversary, Birthday, Party, Club, Events, decoration, Hotel, Dinner Tour, Traveling These All Types of Arrangement Services Available.</span>
+        </li>
+        <li>
+          <strong>Documentation</strong><br>
+          <span class="subtitle">Get Live Advocate,Every Types Of Documentation Are Available Here.</span>
+        </li>
+      </ul>
+    </div>
+    
+  </div>
+</div>
+
+  
+</body>
+</html>
+</body>
+</html>
